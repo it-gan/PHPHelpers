@@ -1,0 +1,21 @@
+{
+    "name": "ligan/php-helpers",
+    "description": "PHP一些常用的助手函数",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "it-gan",
+            "email": "18151768346@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helper\\" : "src/Helper"
+        }
+    }
+}
